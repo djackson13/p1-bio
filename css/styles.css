@@ -1,6 +1,5 @@
 body {
-	font-family: 'Lato', sans-serif;
-
+	font-family: 'Merriweather Sans', sans-serif;
 }
 h1 {
 	background: steelblue;
@@ -8,17 +7,20 @@ h1 {
 	text-align: center;
 	color: white;
 	margin: 0px 0px 10px 0px;
-	font-size: 60px;
+	font-size: 3em;
+	font-weight: 800;
 
 }
 h2 {
 	margin: 10px;
-	font-size: 60px;
+	font-size: 3em;
+	font-weight: 800;
 }
 
  img {
  	border: 2px solid black;
  	margin-left: 10px;
+ 	background: #ddd;
  }
 
  li {
@@ -43,4 +45,13 @@ h2 {
  }
  ul {
  	padding-left: 0px;
+ }
+ h4 {
+ 	text-transform: capitalize;
+ 	font-size: 2em;
+ 	margin: 10px 0px 0px 0px;
+
+ }
+ p, ul {
+ 	margin-top: 2px;
  }
