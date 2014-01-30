@@ -1,5 +1,6 @@
 body {
 	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
 }
 h1 {
 	background: steelblue;
@@ -19,8 +20,12 @@ h2 {
 
  img {
  	border: 2px solid black;
- 	margin-left: 10px;
  	background: #ddd;
+ 	display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+
  }
 
  li {
@@ -32,7 +37,7 @@ h2 {
   background: steelblue;
   padding: 0px 0px 0px 0px;
   display: block;
-  width: 200px;
+  width: auto;
   height: 60px;
   line-height: 60px;
   border: 2px solid white;
@@ -47,11 +52,18 @@ h2 {
  	padding-left: 0px;
  }
  h4 {
- 	text-transform: capitalize;
- 	font-size: 2em;
- 	margin: 10px 0px 0px 0px;
+ 	color: white;
+ 	font-size: 1.5em;
+ 	margin: 0px 0px 0px 0px;
+ 	font-weight: 400;
+ 	background: steelblue;
+ 	padding: 5px;
 
  }
  p, ul {
- 	margin-top: 2px;
+ 	margin: 2px 0px 40px 0px;
  }
+img+h4, h4+ul {
+	margin-left: 10px;
+}
+
