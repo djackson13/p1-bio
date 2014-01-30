@@ -1,0 +1,46 @@
+body {
+	font-family: 'Lato', sans-serif;
+
+}
+h1 {
+	background: steelblue;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin: 0px 0px 10px 0px;
+	font-size: 60px;
+
+}
+h2 {
+	margin: 10px;
+	font-size: 60px;
+}
+
+ img {
+ 	border: 2px solid black;
+ 	margin-left: 10px;
+ }
+
+ li {
+ 	list-style: none;
+ 	text-indent: none;
+ }
+ a {
+ 	color: white;
+  background: steelblue;
+  padding: 0px 0px 0px 0px;
+  display: block;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  border: 2px solid white;
+  text-align: center;
+  text-decoration: none;
+ }
+ a:hover {
+ 	color: black;
+ 	background: red;
+ }
+ ul {
+ 	padding-left: 0px;
+ }
