@@ -1,18 +1,22 @@
 body {
 	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 300;
+	max-width: 1020px;
+	margin: auto;
 }
 h1 {
-	background: steelblue;
+	background-image: url('../img/bg_wood.png');
 	padding: 10px;
 	text-align: center;
-	color: white;
-	margin: 0px 0px 10px 0px;
+	color: #623f20;
+	margin: auto;
 	font-size: 3em;
 	font-weight: 800;
+	border: 2px solid #623f20;
 
 }
 h2 {
+	color: #623f20;
 	margin: 10px;
 	font-size: 3em;
 	font-weight: 800;
@@ -22,7 +26,7 @@ h2 {
  	border: 2px solid black;
  	background: #ddd;
  	display: block;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
 
@@ -63,7 +67,10 @@ h2 {
  p, ul {
  	margin: 2px 0px 40px 0px;
  }
-img+h4, h4+ul {
-	margin-left: 10px;
+
+.wrapper {
+	background-color: #e2d78c;
+	width: 1020px;
+	height: auto;
 }
 
