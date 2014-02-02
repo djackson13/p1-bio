@@ -31,7 +31,7 @@ h2 {
  	text-indent: none;
  }
  a {
- 	color: white;
+ 	color: #623f20;
   background: #a6c9d5;
   padding: 0px 0px 0px 0px;
   display: block;
@@ -72,7 +72,8 @@ h2 {
 }
 .list {
 	height: 395px;
-	margin-bottom: 9px;
+	margin-top: -10px;
+  margin-bottom: 19px;
 }
 .list li {
 	list-style: disc;
