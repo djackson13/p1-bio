@@ -4,19 +4,36 @@ body {
 	font-weight: 300;
 	background-image: url("../img/polaroid.png");
 }
-h1 {
-	background-image: url('../img/bg_wood.png');
-	padding: 10px;
-	margin: 60px auto 10px auto;
-	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.7);
-	text-align: center;
-	color: #623f20;
-	font-size: 3em;
-	font-weight: 800;
-	-moz-box-shadow:    inset 0 0 16px #623f20;
-   -webkit-box-shadow: inset 0 0 16px #623f20;
-   box-shadow:         inset 0 0 16px #623f20;
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background: black;
+  height: auto;
+  list-style: none;
+  position: fixed;
+  top: 0px;
+}
 
+nav li {
+  display: inline;
+  float: left;
+  margin: 0px 0px;
+  padding: 10px 0px 10px 0px;
+  background: black;
+}
+
+nav a:link, nav a:visited {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  background-color: white;
+}
+nav + h2 {
+  margin-top: 80px;
 }
 h2 {
 	color: #623f20;
