@@ -44,6 +44,7 @@ body {
   left: 600px;
   z-index: 2;
   padding-left: 10px;
+  line-height: 40px;
 }
 
 nav ul {
