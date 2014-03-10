@@ -1,5 +1,5 @@
 object {
-  position: absolute;
+  position: relative;
   top: 60px;
   left: 600px;
   z-index: 2;
@@ -14,11 +14,11 @@ p {
   background: url("../img/nessst_pic.jpg") no-repeat;
   width: 1000px;
   height: 563px;
-  border-bottom: 4px solid #aaa;
+  border-bottom: 2px solid #aaa;
   top: 40px;
 }
 .list + h4 {
-  margin-top: 600px;
+  margin-top: 240px;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   text-transform: uppercase;
   font-size: 42px;
   color: #6D6E70;
-  position: absolute;
+  position: relative;
   top: 140px;
   left: 600px;
   z-index: 2;
