@@ -1,11 +1,17 @@
+p {
+  margin-top: 0;
+}
 .mainpic {
   position: relative;
   z-index: 1;
-  background: url("../img/nessst_pic.jpg") no-repeat top left;
+  background: url("../img/nessst_pic.jpg") no-repeat;
   width: 1000px;
   height: 563px;
   border-bottom: 4px solid #aaa;
-  margin-top: 20px;
+  margin-top: -10px;
+}
+.list + h4 {
+  margin-top: -400px;
 }
 
 body {
@@ -24,12 +30,10 @@ body {
   font-family: "proxima-nova-extra-condensed";
   font-weight: bold;
   text-transform: uppercase;
-  display: block;
-  float: right;
-  font-size: 38px;
+  font-size: 42px;
   position: relative;
-  top: -550px;
-  left: 100px;
+  top: -540px;
+  left: 440px;
   z-index: 2;
   padding-left: 10px;
 }
