@@ -1,7 +1,7 @@
 object {
-  position: relative;
-  top: -520px;
-  left: 440px;
+  position: absolute;
+  top: 60px;
+  left: 600px;
   z-index: 2;
   max-width: 400px;
 }
@@ -9,16 +9,16 @@ p {
   margin-top: 0;
 }
 .mainpic {
-  position: relative;
+  position: absolute;
   z-index: 1;
   background: url("../img/nessst_pic.jpg") no-repeat;
   width: 1000px;
   height: 563px;
   border-bottom: 4px solid #aaa;
-  margin-top: -10px;
+  top: 40px;
 }
 .list + h4 {
-  margin-top: -400px;
+  margin-top: 600px;
 }
 
 body {
@@ -39,9 +39,9 @@ body {
   text-transform: uppercase;
   font-size: 42px;
   color: #6D6E70;
-  position: relative;
-  top: -540px;
-  left: 440px;
+  position: absolute;
+  top: 140px;
+  left: 400px;
   z-index: 2;
   padding-left: 10px;
 }
