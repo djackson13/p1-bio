@@ -30,7 +30,7 @@ body {
 }
 .container {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
   max-width: 1000px;
 }
 .list ul {
@@ -45,6 +45,7 @@ body {
   z-index: 2;
   padding-left: 10px;
   line-height: 40px;
+  width: 400px;
 }
 
 nav ul {
