@@ -21,7 +21,7 @@ body {
   max-width: 1000px;
 }
 .list ul {
-  font-family: "proxima-nova-extra-condensed",sans-serif;
+  font-family: "proxima-nova-extra-condensed";
   text-transform: uppercase;
   display: block;
   float: right;
