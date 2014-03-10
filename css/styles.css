@@ -1,8 +1,11 @@
 .mainpic {
+  position: relative;
+  z-index: 1;
   background: url("../img/nessst_pic.jpg") no-repeat top left;
   width: 1000px;
   height: 563px;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #aaa;
+  margin-top: 20px;
 }
 
 body {
@@ -18,21 +21,29 @@ body {
   max-width: 1000px;
 }
 .list ul {
+  font-family: "proxima-nova-extra-condensed",sans-serif;
+  text-transform: uppercase;
+  display: block;
   float: right;
   font-size: 2em;
-  position: top right;
+  position: relative;
+  top: -550px;
+  left: 100px;
+  z-index: 2;
+  padding-left: 20px;
 }
 
 nav ul {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 100%;
   max-width: 1000px;
   background: black;
   height: auto;
   list-style: none;
   position: fixed;
-  top: 0px;
+  z-index: 2;
+  top: 0;
 }
 
 nav li {
