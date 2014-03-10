@@ -1,3 +1,10 @@
+object {
+  position: relative;
+  top: -520px;
+  left: 440px;
+  z-index: 2;
+  max-width: 400px;
+}
 p {
   margin-top: 0;
 }
@@ -31,6 +38,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 42px;
+  color: #6D6E70;
   position: relative;
   top: -540px;
   left: 440px;
