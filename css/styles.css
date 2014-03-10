@@ -1,22 +1,33 @@
-main {
-  background: url("../img/nessst_pic.jpg") no-repeat;
+.mainpic {
+  background: url("../img/nessst_pic.jpg") no-repeat top left;
+  width: 1000px;
+  height: 563px;
+  border-bottom: 4px solid black;
 }
+
 body {
+  
   font: normal 1.1em/1.5 "lexia";
   width: 100%;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
 }
 .container {
   width: 90%;
   margin: auto;
   max-width: 1000px;
 }
+.list ul {
+  float: right;
+  font-size: 2em;
+  position: top right;
+}
 
 nav ul {
   padding: 0px;
   margin: 0px;
   width: 100%;
+  max-width: 1000px;
   background: black;
   height: auto;
   list-style: none;
