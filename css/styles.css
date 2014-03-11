@@ -1,27 +1,27 @@
 object {
   position: relative;
-  top: 60px;
-  left: 555px;
+  top: 3.75em; /* 60px */
+  left: 34.6875em; /* 555px */
   z-index: 2;
-  max-width: 400px;
+  max-width: 25em; /* 400px */
 }
 p {
-  margin-top: -15px;
+  margin-top: -.9375em; /* -15px */
   border-top: 2px solid #6D6E70;
-  padding: 0 160px 0 60px;
+  padding: 0 10em 0 3.75em; /* 0 160px 0 60px */
 
 }
 .mainpic {
   position: absolute;
   z-index: 1;
   background: url("../img/nessst_pic.jpg") no-repeat;
-  width: 954px;
-  height: 563px;
+  width: 59.625em; /* 954px */
+  height: 35.1875em; /* 563px */
   border-bottom: 2px solid #aaa;
-  top: 40px;
+  top: 2.5em; /* 40px */
 }
 ul + h2 {
-  margin-top: 350px;
+  margin-top: 7.29166667em; /* 350px */
 }
 
 body {
@@ -150,25 +150,10 @@ body#contact a#contactnav {
     display: none;
   }
     object {
-    position: relative;
-    top: 60px;
     left: 10px;
-    z-index: 2;
-    max-width: 400px;
   }
     object + ul {
-    font-family: "proxima-nova-extra-condensed", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 42px;
-    color: #6D6E70;
-    position: relative;
-    top: 140px;
     left: 10px;
-    z-index: 2;
-    padding-left: 10px;
-    line-height: 40px;
-    width: 400px;
   }
 }
 
