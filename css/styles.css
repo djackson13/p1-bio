@@ -1,3 +1,6 @@
+html {
+  background: url("img/tweed.png");
+}
 object {
   position: relative;
   top: 60px;
@@ -78,6 +81,8 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: black;
   background-color: white;
+  border-top: 4px solid white;
+  border-bottom: 3px solid white;
 }
 nav + h2 {
   margin-top: 80px;
@@ -104,6 +109,7 @@ p.last {
   position: fixed;
   z-index: 2;
   bottom: 20px;
+  color: black;
 }
 
 h2 + ul {
@@ -138,6 +144,8 @@ h2 + ul a:link, h2 + ul a:visited {
 h2 + ul a:hover {
   color: black;
   background-color: white;
+  border-top: 3px solid white;
+  border-bottom: 4px solid white;
 }
 
 body#home a#homenav,
@@ -147,6 +155,8 @@ body#contact a#contactnav {
 color: #777;
 background: white;
 font-weight: bold;
+border-top: 4px solid white;
+border-bottom: 3px solid white;
 }
 
 
