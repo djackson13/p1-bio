@@ -1,6 +1,3 @@
-/*html {
-  background: url("../img/tweed.png");
-}*/
 object {
   position: relative;
   top: 60px;
@@ -23,7 +20,7 @@ p {
   border-bottom: 2px solid #aaa;
   top: 40px;
 }
-.list + h2 {
+ul + h2 {
   margin-top: 350px;
 }
 
@@ -34,11 +31,11 @@ body {
   margin: 0 auto;
 }
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1000px;
 }
-.list ul {
+object + ul {
   font-family: "proxima-nova-extra-condensed", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -84,22 +81,13 @@ nav a:hover {
   border-top: 4px solid white;
   border-bottom: 3px solid white;
 }
-/*nav + h2 {
-  margin-top: 80px;
-}*/
+
 h2 {
   font-family: "proxima-nova-extra-condensed",sans-serif;
   font-size: 3em;
   margin: 0;
   color: #777;
 }
-
-/*h4 {
-  font-family: "proxima-nova-extra-condensed", sans-serif;
-  font-size: 42px;
-  margin: 10px 0px 0px 0px;
-  border-bottom: 2px solid ;
-}*/
 
 p.last {
   margin-bottom: 40px;
@@ -157,5 +145,31 @@ body#contact a#contactnav {
     border-bottom: 3px solid white;
 }
 
+@media screen and (max-width: 875px) {
+  .mainpic {
+    display: none;
+  }
+    object {
+    position: relative;
+    top: 60px;
+    left: 10px;
+    z-index: 2;
+    max-width: 400px;
+  }
+    object + ul {
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #6D6E70;
+    position: relative;
+    top: 140px;
+    left: 10px;
+    z-index: 2;
+    padding-left: 10px;
+    line-height: 40px;
+    width: 400px;
+  }
+}
 
 
